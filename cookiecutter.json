@@ -1,0 +1,6 @@
+{
+  "script_name": "scrapyscript",
+  "allowed_domain": "http://www.example.com",
+  "use_crawlera": true,
+  "crawlera_api_key": ""
+}
