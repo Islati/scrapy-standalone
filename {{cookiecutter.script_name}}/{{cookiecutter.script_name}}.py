@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
-import json
-
-from scrapy import Request
 from scrapy.crawler import CrawlerProcess
-from scrapy.loader import ItemLoader
-from scrapy import log, signals, Spider, Item, Field
-from scrapy.settings import Settings
-from twisted.internet import reactor
+from scrapy import Spider, Item, Field, Request, FormRequest
 
 _SPIDER_NAME = "{{cookiecutter.script_name}}"
 
