@@ -1,6 +1,12 @@
 {
   "script_name": "scrapyscript",
   "allowed_domain": "http://www.example.com",
-  "use_crawlera": true,
-  "crawlera_api_key": ""
+  "use_crawlera": "false",
+  "crawlera_api_key": "",
+  "output_file_type": [
+    "csv",
+    "json",
+    "xml"
+  ],
+  "output_file_name": "output"
 }
